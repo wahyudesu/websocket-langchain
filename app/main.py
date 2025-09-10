@@ -1,6 +1,6 @@
 from fastapi import FastAPI, WebSocket
 import asyncio
-from sql_agent import run_sql_query
+from app.sql_agent import run_sql_query
 
 app = FastAPI()
 
