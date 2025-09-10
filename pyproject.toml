@@ -1,0 +1,13 @@
+[project]
+name = "websocket-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "langchain-community>=0.3.29",
+    "langchain-groq>=0.3.7",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+]
